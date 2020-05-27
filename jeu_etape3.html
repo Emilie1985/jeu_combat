@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Jeu de plateau</title>
+</head>
+<link rel="stylesheet" type="text/css" href="jeu_etape3.css">
+<body>
+	<div id = "description">
+		<h1>Jeu de combat</h1><br><br>
+		<h2>Règles du jeu</h2>
+		<p>Les joueurs peuvent se déplacer de 1 à 3 cases par tour verticalement ou horizontalement.</br>Si un joueur passe sur une case contenant une arme, celle-ci devient son arme actuelle et il laisse l'ancienne sur place. </br> Lorsqu'ils se retrouvent côte à côte un combat s'engage. A chaque tour le joueur choisit de se défendre ou d'attaquer. S'il se défend, il encaisse 50% de coups en moins qu'en temps normal. La force de chaque joueur dépend de son arme : hache : 10 , arc : 15, colt : 20, laser : 25 </p>
+		<p>Utilisez les touches du clavier pour vous déplacer.</p>
+		<div id="texte">	
+			<p id = "en_cours">
+				Appuyez sur une touche pour commencer
+			</p>
+			<p id="combat"></p>
+		</div>
+		<div id="joueurs">
+			<div>	
+			<h2>Joueur 1</h2>
+			<p id="joueur1"></p>
+		</div>
+			<div>
+				<h2> Joueur 2 </h2>
+				<p id='joueur2'></p>
+			</div>
+		</div>	
+	</div>
+	<table id= "grille">
+	</table>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="jeu_etape3.js"></script>
+<script type="text/javascript" src="general.js"></script>
+<script type="text/javascript" src="grille.js"></script>
+<script type="text/javascript" src="joueur.js"></script>
+<script type="text/javascript" src="arme.js"></script>
+</body>
+</html>	

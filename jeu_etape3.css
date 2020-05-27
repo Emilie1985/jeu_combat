@@ -1,0 +1,90 @@
+body{
+	margin-left: 50px;
+}
+#description {
+	float: left;
+	width : 40%;
+	line-height: 20px;		
+}
+h1{
+	text-align : center;
+	font-size: 50px;
+	font-family: Aon Cari Celtic;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+h2{
+	text-align : center;
+	font-family: Aon Cari Celtic;
+	margin-top : 0px;
+}
+p {
+	text-align : center;
+	font-family: Gabriola ;
+	font-size: 25px;
+}
+#texte{
+	background-color: #61daa9;
+	line-height: 25px;
+	height : 100px;
+}
+#en_cours{
+	padding-top: 10px;
+	margin-top:10px;
+}
+#joueurs{
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-around;
+}
+table {
+	margin : auto;
+	border: 1px solid black;
+}	
+td {
+	border: 1.2px solid black;
+	width: 60px;
+	height: 60px;
+}
+.prise {
+	background-color: grey;
+}
+.libre {
+	background-color: #e0ffff;
+}
+.hache{
+	background-image: url("Images/axe.png");
+	background-repeat: no-repeat;
+		background-size: 100% auto;
+}
+.arc{
+	background-image: url("Images/arc.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+} 
+.colt {
+	background-image: url("Images/colt.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center;
+}	
+.laser{
+	background-image: url("Images/laser.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;	
+	background-position: center;
+}
+.pion1 {
+	background-image: url("Images/pion1.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.pion2 {
+	background-image: url("Images/pion2.png");
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.possible {
+	background-color : #9ace92 ;
+}
